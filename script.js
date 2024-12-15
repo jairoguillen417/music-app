@@ -1,4 +1,4 @@
-const API_KEY = 'TU_CLAVE_DE_API'; // Coloca aquí tu clave de API de YouTube
+const API_KEY = 'AIzaSyBjgFhqyvIdKyr_vPcEWmLdxYh2lxu87Kg'; // Coloca aquí tu clave de API de YouTube
 
 async function searchSongs() {
     const query = document.getElementById('searchInput').value.trim();
