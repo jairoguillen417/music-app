@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Música</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recomendador de Música</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar canciones...">
+            <button onclick="searchSongs()">Buscar</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="recommendations" class="recommendations"></div>
+        <div id="player" style="display: none;">
+            <iframe id="youtubePlayer" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Recomendador de Música. Todos los derechos reservados.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
